@@ -122,4 +122,4 @@ for day in ["d", "w"]:
 with open(output_file_path, "w", encoding="utf-8") as newJson:
     json.dump(dictJson, newJson, ensure_ascii=False, indent=4)
 
-print("コンパイル完了")
+print("くっつけました")
