@@ -1,0 +1,129 @@
+{
+    "jr": {
+        "しなの": {
+            "color": "#fff",
+            "bgcolor": "#f00",
+            "code": "c1"
+        },
+        "ホームライナー瑞浪": {
+            "color": "#fff",
+            "bgcolor": "#f40",
+            "code": "c2"
+        },
+        "みえ": {
+            "color": "#fff",
+            "bgcolor": "#f00",
+            "code": "c3"
+        },
+        "特別快速": {
+            "color": "#000",
+            "bgcolor": "#ff0",
+            "code": "c4"
+        },
+        "新快速": {
+            "color": "#fff",
+            "bgcolor": "#f40",
+            "code": "c5"
+        },
+        "快速": {
+            "color": "#fff",
+            "bgcolor": "#04f",
+            "code": "c6"
+        },
+        "区間快速": {
+            "color": "#fff",
+            "bgcolor": "#4c0",
+            "code": "c7"
+        },
+        "通勤快速": {
+            "color": "#fff",
+            "bgcolor": "#4c0",
+            "code": "c8"
+        }
+    },
+    "mn": {
+        "ミュースカイ": {
+            "color": "#fff",
+            "bgcolor": "#0cf",
+            "code": "m1"
+        },
+        "快速特急": {
+            "color": "#f00",
+            "bgcolor": "#fff",
+            "code": "m2"
+        },
+        "特急": {
+            "color": "#fff",
+            "bgcolor": "#f00",
+            "code": "m3"
+        },
+        "快速急行": {
+            "color": "#0cf",
+            "bgcolor": "#fff",
+            "code": "m4"
+        },
+        "急行": {
+            "color": "#fff",
+            "bgcolor": "#04f",
+            "code": "m5"
+        },
+        "準急": {
+            "color": "#fff",
+            "bgcolor": "#4c4",
+            "code": "m6"
+        },
+        "普通": {
+            "color": "#fff",
+            "bgcolor": "#555",
+            "code": "m7"
+        }
+    },
+    "ns": {},
+    "kt":{
+        "普通":{
+            "color":"#fff",
+            "bgcolor":"#173cfd",
+            "code": "k1"
+        },
+        "準急":{
+            "color":"#fff",
+            "bgcolor":"#008b43",
+            "code": "k2"
+        },
+        "急行":{
+            "color":"#fff",
+            "bgcolor":"#ff6207",
+            "code": "k3"
+        },
+        "特急":{
+            "color":"#fff",
+            "bgcolor":"#ff0302",
+            "code": "k4"
+        },
+        "ひのとり":{
+            "color":"#fff",
+            "bgcolor":"#ff0302",
+            "code": "k5"
+        },
+        "しまかぜ":{
+            "color":"#fff",
+            "bgcolor":"#ff0302",
+            "code": "k6"
+        },
+        "アーバンライナー":{
+            "color":"#fff",
+            "bgcolor":"#ff0302",
+            "code": "k7"
+        },
+        "ビスタカー":{
+            "color":"#fff",
+            "bgcolor":"#ff0302",
+            "code": "k8"
+        },
+        "伊勢志摩ライナー":{
+            "color":"#fff",
+            "bgcolor":"#ff0302",
+            "code": "k9"
+        }        
+    }
+}

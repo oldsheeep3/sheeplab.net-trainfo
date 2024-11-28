@@ -1,0 +1,250 @@
+html {
+    background-color: #000;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+html::-webkit-scrollbar{
+    display: none;
+}
+:root {
+    --item-width: 0;
+}
+a,
+h1,
+h2,
+li,
+p {
+    color: #fff;
+    padding: 0;
+    margin: 0
+}
+
+li {
+    list-style: none
+}
+
+ul {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-start;
+}
+.route{
+    border-bottom: 1px solid #fff;
+    display: flex;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.route-inner::after {
+    content: " 方面";
+    font-size: 1.5rem
+}
+.route-inner{
+    width: fit-content;
+}
+.scranm {
+    animation: marquee 10s linear infinite forwards;
+}
+.next::before {
+    content: "先発："
+}
+.next2::before {
+    content: "次発："
+}
+/*
+.rtplus::before{
+    content: " 方面 ";
+    font-size: 1.5rem
+}
+.rtplus::after{
+    content: "東海道線-名古屋・岐阜・米原"
+}*/
+.next2::after,
+.next::after {
+    content: " 発"
+}
+
+
+.destination::after {
+    content: " 行き";
+    font-size: 0.8em;
+}
+.loopline::after{
+    content: ""
+}
+.time-data-li {
+    flex : 1 1 0;
+    min-width: 35rem;
+    padding: 1rem;
+    margin: 1rem;
+    border: 2px solid #fff;
+    border-radius: 2rem
+}
+
+.time-data-2-li {
+    flex : 1 1 0;
+    margin: 5px 1rem;
+    max-width: 50rem;
+    min-width: 30rem;
+    width: calc((100vw - 12rem)/2);
+    border: 1px solid #ffffff88;
+}
+
+.limit,
+.limit2 {
+    text-align: right
+}
+
+h2 {
+    font-size: 3rem;
+}
+
+.next {
+    font-size: 5rem
+}
+
+.last,
+.next2,
+.next::after,
+.next::before {
+    font-size: 2rem
+}
+
+.last {
+    padding-left: 2rem
+}
+.fin {
+    font-size: 2.5rem
+}
+
+.limit {
+    border-bottom: 1px solid #fff
+}
+
+.last2,
+.last::after {
+    font-size: 1.5rem
+}
+
+.last2::after,
+.next2::after,
+.next2::before {
+    font-size: 1.2rem
+}
+.title-list {
+    position: relative;
+    z-index: 600;
+}
+.title-list li {
+    padding-right: 2rem
+}
+
+.tdf {
+    font-size: 1.5rem
+}
+
+#s-name {
+    font-size: 5rem
+}
+
+#day,
+#realDate,
+#realTime {
+    font-size: 2rem;
+    transform: translateY(50%)
+}
+
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 500;
+    background-color: #000;
+    width: 100vw;
+    height: 100vh;
+}
+
+.overlay-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+
+}
+/* HTML:  */
+.loader {
+    width: 10rem;
+    aspect-ratio: 1;
+    display: grid;
+}
+.loader::before,
+.loader::after {    
+    content:"";
+    grid-area: 1/1;
+    --c:no-repeat radial-gradient(farthest-side,#ffffff 92%,#0000);
+    background: 
+        var(--c) 50%  0, 
+        var(--c) 50%  100%, 
+        var(--c) 100% 50%, 
+        var(--c) 0    50%;
+    background-size: 2rem 2rem;
+    animation: l12 1s infinite;
+}
+.loader::before {
+    margin: 4px;
+    filter: hue-rotate(45deg);
+    background-size: 1rem 1rem;
+    animation-timing-function: linear
+}
+@keyframes l12 { 
+    100%{transform: rotate(.5turn)}
+}
+
+.red {
+    color: red
+}
+
+.yellow {
+    color: #ff0
+}
+
+@media screen and (max-width:1100px) {
+    html {
+        font-size: 78%;
+    }
+    ul {
+        padding: 0 1rem;
+    }
+    .time-data-li {
+        max-width:calc((100% - 4rem)/2);
+    }
+}
+@media screen and (max-width: 800px) {
+    .time-data-2-li {
+        max-width: none;
+        width: 100%;
+        min-width: 40%;
+    }
+}
+@media screen and (max-width:550px) {
+    html {
+        font-size: 50%;
+    }
+    .time-data-li {
+        width: 80vw;
+    }
+}
+/*
+@keyframes marquee {
+    30%  { transform: translateX(0); }
+    70% { transform: translateX(calc(var(--item-width) - 110%));}
+    100% { transform: translateX(calc(var(--item-width) - 110%));}
+}
+*/
+
+@keyframes marquee{
+    0%{transform:translateX(100%)}
+    100%{transform:translateX(-100%)}
+}
+@keyframes l12 { 
+    100%{transform: rotate(.5turn)}
+}

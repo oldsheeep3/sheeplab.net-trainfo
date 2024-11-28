@@ -1,0 +1,90 @@
+{
+    "data":[
+        {
+            "route":"test",
+            "color":"#005599"
+        }
+    ],
+    "d":{
+        "test":[
+            {
+                "time":"05:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"06:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"07:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"08:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"09:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"10:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"11:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"12:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"13:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"14:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"15:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"16:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"17:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"19:00",
+                "type":"Type",
+                "last":"Last Stop"
+            },
+            {
+                "time":"01:00",
+                "type":"Type",
+                "last":"Last Stop"
+            }
+        ]
+    },
+    "w":{
+
+    }
+}
